@@ -1,0 +1,114 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: "Cairo", "Tahoma", sans-serif;
+}
+
+html, body {
+  min-width: 500px !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: unset;
+  border-color: #dee2e6;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.accordion-button::after {
+  background-image: url("https://f.nooncdn.com/s/app/com/noon/icons/plus.svg");
+  background-size: 12px;
+  background-position: 50% 50%;
+  transform: unset;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://f.nooncdn.com/s/app/com/noon/icons/minus.svg");
+  background-size: 12px;
+  background-position: 50% 50%;
+  transform: unset;
+}
+
+.badge--sm-end {
+  position: absolute;
+  top: -6px;
+  left: -10px;
+  background-color: #3866df;
+  color: white !important;
+  width: 15px;
+  height: 15px;
+  font-size: xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.cart--badge-start {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #3866df;
+  color: white !important;
+  width: 20px;
+  height: 20px;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.pb--10 {
+  padding-bottom: 15rem;
+}
+
+.badge--sm-start {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #3866df;
+  color: white !important;
+  width: 15px;
+  height: 15px;
+  font-size: xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.accordion-button:focus {
+  box-shadow: unset;
+}
+
+.bg--ghostwhite {
+  background-color: #f7f7fa;
+}
+
+.bg--aureolin {
+  background-color: #feee00;
+}
+
+.alert--floralwhite {
+  color: #404553;
+  background-color: #FCFBF3;
+  border-color: #ebecf0;
+  font-size: 14px;
+}
+.alert--floralwhite button {
+  color: #f3ac30;
+}/*# sourceMappingURL=styles.css.map */
